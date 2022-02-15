@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/vazir.eot") format("eot"),
+    url("../fonts/vazir.ttf") format("truetype"),
+    url("../fonts/vazir.woff") format("woff");
+}
+body {
+  font-family: "vazir";
+  direction: rtl;
+}
+
+* {
+  font-family: "vazir" !important;
+}
+
+.s1 {
+  background: url("../images/1.jpg");
+  background-size: cover;
+}
+
+.s1 ul {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s1 ul li {
+  margin-right: 50px;
+  list-style: none;
+}
+.s1 ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.4s ease;
+  /* -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease; */
+}
+.s1 ul li a:hover {
+  color: rgb(197, 197, 197) !important;
+}
+
+.s1 .fp-controlArrow.fp-prev {
+  position: absolute;
+  left: 50px;
+  top: 90%;
+  width: 0;
+  border-width: 20px 20px 20px 0;
+  border-color: transparent #fff transparent transparent;
+}
+.s1 .fp-controlArrow.fp-next {
+  position: absolute;
+  top: 90%;
+  right: 50px !important;
+  right: 15px;
+  border-width: 20px 0 20px 20px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.s2 {
+  background: url("../images/2.jpg");
+  background-size: cover;
+}
+
+.s3 {
+  background: url("../images/3.jpg");
+  background-size: cover;
+}
+
+.s4 {
+  background: url("../images/4.jpg");
+  background-size: cover;
+}
+
+.s5 {
+  background: #000;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #fff !important;
+}
+
+#fp-nav ul li a.active span {
+  background: #c00 !important;
+}
+.s1 .slide {
+  margin-top: -150px;
+}
+
+.s1 .slide h1 {
+  text-align: left;
+  width: 90%;
+  color: #fff;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px 5px #000;
+}
+.s1 .slide h1 a {
+  text-decoration: none;
+  color: #c00;
+}
